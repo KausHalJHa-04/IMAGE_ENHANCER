@@ -47,11 +47,15 @@
 <pre><code>git clone https://github.com/KausHalJHa-04/IMAGE_ENHANCER.git</code></pre>
 
 <h3>2️⃣ Open the project</h3>
-<pre><code>cd IMAGE_ENHANCER</code></pre>
+<pre><code>cd App-main</code></pre>
 
 <h3>3️⃣ Run locally</h3>
-<p>Just open the <code>index.html</code> file in your browser or use a local server:</p>
-<pre><code>npx serve</code></pre>
+<p>Firstly install all dependencies:</p>
+<pre><code>npm install</code></pre>
+
+<h3>4️⃣ Run as Node/Vite project</h3>
+<p>Start the development server:</p>
+<pre><code>npm run dev</code></pre>
 
 <hr/>
 
