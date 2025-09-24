@@ -67,12 +67,32 @@
 
 <h2>📂 Project Structure</h2>
 <pre>
-IMAGE_ENHANCER/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
+AI-IMAGE_ENHANCER/
+│── App-main/
+│   │── node_modules/
+│   │── public/
+│   │── src/
+│   │   │── assets/
+│   │   │── components/
+│   │   │   │── Home.jsx
+│   │   │   │── ImagePreview.jsx
+│   │   │   │── ImageUpload.jsx
+│   │   │   │── Loading.css
+│   │   │   │── Loading.jsx
+│   │   │── utils/
+│   │   │── App.css
+│   │   │── App.jsx
+│   │   │── main.jsx
+│   │
+│   │── .gitignore
+│   │── eslint.config.js
+│   │── index.html
+│   │── package-lock.json
+│   │── package.json
+│   │── README.md
+│   │── vite.config.js
 </pre>
+
 
 <hr/>
 
