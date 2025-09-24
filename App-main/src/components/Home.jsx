@@ -23,7 +23,7 @@ const Home = () => {
     };
   return (
     <>
-      <ImageUpload UploadImageHandler={UploadImageHandler} />
+  <ImageUpload UploadImageHandler={UploadImageHandler} enhancedImageUrl={enhancedImage?.image} />
       <ImagePreview
         loading={loading}
         uploaded={uploadImage}

@@ -23,6 +23,18 @@ const ImageUpload = (props) => {
           Click and Drag to upload your image
         </span>
       </label>
+      {/* Download button for enhanced image */}
+      {props.enhancedImageUrl && (
+        <div className="mt-4 text-center">
+          <a
+            href={props.enhancedImageUrl}
+            download="enhanced-image.png"
+            className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+          >
+            Download Enhanced Image
+          </a>
+        </div>
+      )}
     </div>
   );
 };
